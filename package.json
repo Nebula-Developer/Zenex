@@ -4,14 +4,18 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "example": "example",
-    "lib": "lib",
-    "test": "test"
+    "lib": "lib"
   },
+  "files": [
+    "index.js"
+  ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+
+  }
 }
