@@ -10,7 +10,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "node test/server.js"
+    "test": "node test/server.js",
+    "dev": "nodemon test/server.js"
   },
   "keywords": [],
   "author": "",
