@@ -1,4 +1,5 @@
 const zenex = require('..');
+const { ZenexHandler } = require('../lib/types');
 
 var app = zenex({
     errors: {
