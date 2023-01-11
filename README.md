@@ -37,3 +37,11 @@ app.listen(3000, () => {
 ```
 
 When we call `app.useStatic()`, it appends a 'handler' function to the handler stack. When a request is made, the handler stack is iterated through, and the first handler that matches the request is called. The `useStatic()` handler matches all requests, and serves the requested file if it exists. If the file does not exist, the next handler in the stack is called.
+
+
+## Accounts
+
+Now introducing the **Zenex Account System**! This is a simple account system that allows you to create accounts into a local database. It is designed to be lightweight yet flexible. It is not intended to be a full-featured account system.
+
+Documentation for the account system will be available soon.
+JSDoc is supplied, and most features are self-explanatory :]

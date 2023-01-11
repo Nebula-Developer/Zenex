@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zenex": "^0.0.5"
+    "socket.io": "^4.5.4",
+    "zenex": "^0.0.6"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "zenex",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Simple and blazing fast web framework for Node.js",
   "main": "index.js",
   "files": [

@@ -1,9 +1,8 @@
 const zenex = require('..');
 
-
 var app = zenex();
 
-var sys = app.genAccountSystem({
+var accounts = app.genAccountSystem({
     name: 'test'
 });
 
