@@ -26,6 +26,10 @@ app.use((req, res, next) => {
     next();
 });
 
+var sys = app.genAccountSystem({
+    name: 'test2'
+});
+
 app.listen(3000, () => {
     console.log('Listening on port 3000');
 });
