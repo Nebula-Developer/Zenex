@@ -16,7 +16,17 @@
     "test": "node test/account.js",
     "dev": "nodemon test/account.js"
   },
-  "keywords": [],
+  "keywords": [
+    "zenex",
+    "framework",
+    "web",
+    "node",
+    "nodejs",
+    "express",
+    "rest",
+    "api",
+    "account"
+  ],
   "author": "",
   "license": "ISC",
   "repository": {
