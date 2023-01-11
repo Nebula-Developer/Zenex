@@ -1,0 +1,5 @@
+{
+    "$schema": "http://json.schemastore.org/nodemon",
+    "verbose": true,
+    "ignore": ["./test/**/*.json"]
+}

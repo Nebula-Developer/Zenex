@@ -1,1 +1,18 @@
-{}
+{
+    "245d56d87e3ff745d47264f0757245b1": {
+        "username": "test",
+        "password": "admin"
+    },
+    "a8d6b745bb45dac2c67b92efb2967c2d": {
+        "username": "test",
+        "password": "admin"
+    },
+    "5cec38689a9f656be71c307d57a02211": {
+        "username": "test",
+        "password": "admin"
+    },
+    "22a58e810773f40fee585bf033365308": {
+        "username": "test",
+        "password": "admin"
+    }
+}
