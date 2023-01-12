@@ -8,5 +8,5 @@
 
 'use strict';
 
-const types = require('./lib/types');
+const types = require('./lib/accounts/types');
 module.exports = require('./lib/zenex');
