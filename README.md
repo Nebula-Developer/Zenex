@@ -1,5 +1,12 @@
 # Zenex - Simple and blazing fast web framework for Node.js
 
+
+<!-- Image: -->
+![version](https://img.shields.io/npm/v/zenex)
+![size](https://img.shields.io/bundlephobia/min/zenex)
+![downloads](https://img.shields.io/npm/dt/zenex)
+
+
 Zenex is a simple web framework that allows developing web servers quickly and efficiently. It is built on top of [Node.js](https://nodejs.org/en/)'s [http](https://nodejs.org/api/http.html) module, and has a runtime similar to [Express](https://expressjs.com/). (Zenex is compatible with Express, and can be used as a syntax-alternative drop-in replacement for Express.)
 
 Zenex is designed to be simple and easy to use, and is suited for use in any sized projects. It is not intended to be a full-featured framework like Express, but rather a lightweight framework+langauge extension pack that allows you to write web servers quickly and efficiently.
