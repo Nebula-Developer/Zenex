@@ -1,3 +1,4 @@
 *.log
 coverage
 .cache
+node_modules

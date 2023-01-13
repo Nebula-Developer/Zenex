@@ -10,12 +10,16 @@
 <body>
     <p>NPMTEST-{{node}}</p>
 
-    <script>
+    <script type="module">
         const socket = io();
         socket.emit('register', {
             username: 'npmtest',
             password: 'npmtest'
         })
+
+        import flamethrower from './node_modules/flamethrower-router/dist/main.js';
+        const router = flamethrower();
+        console.log(router)
     </script>
 </body>
 </html>

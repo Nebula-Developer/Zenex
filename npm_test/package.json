@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "socket.io": "^4.5.4",
-    "zenex": "^0.0.6"
+    "zenex": "latest"
   }
 }

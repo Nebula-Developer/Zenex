@@ -14,22 +14,9 @@ var server = app.createServer();
 
 // app.useStatic('test');
 
-app.use((req, res, next) => {
-    res.setHeader('Content-Type', 'application/json');
-
-    res.sendJSON({
-        hello: 'world',
-        foo: 'bar'
-    });
-
-    res.end();
-    next();
-});
-
-var sys = app.genAccountSystem({
-    name: 'test2'
-});
+app.useStatic('test');
+app.listenFileChanges('test');
 
 app.listen(3000, () => {
-    console.log('Listening on port 3000');
+    console.log('Listening on port 3000!...');
 });

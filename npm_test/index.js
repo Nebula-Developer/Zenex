@@ -8,10 +8,7 @@ var accounts = app.genAccountSystem({
     name: 'db'
 });
 
-app.use((req, res, next) => {
-    res.sendFileAsync('index.html');
-    console.log(__dirname + '/index.html');
-});
+app.useStatic('.');
 
 io.on('connection', (socket) => {
     socket.on('register', (data) => {
