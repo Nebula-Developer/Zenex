@@ -7,7 +7,8 @@ var app = zenex({
             res.writeHead(404);
             res.end('404 Page Not Found');
         }
-    }
+    },
+    useNodeStatic: true
 });
 
 var server = app.createServer();
